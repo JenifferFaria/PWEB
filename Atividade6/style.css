@@ -1,0 +1,72 @@
+.div {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+
+@media (min-width: 0px) and (max-width: 420px) {
+    .div {
+        background-color: rgb(121, 141, 132);
+    }
+
+    .h1::after {
+        content: "Cinza";
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 768px) {
+    .div {
+        background-color:rgb(240, 111, 6);
+    }
+
+    .h1::after {
+        content: "Laranja";
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .div {
+        background-color:rgb(243, 11, 139);
+    }
+
+    .h1::after {
+        content: "Rosa";
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px) {
+    .div {
+        background-color:rgb(201, 27, 21);
+    }
+
+    .h1::after {
+        content: "Vermelho";
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px) {
+    .div {
+        background-color:rgb(129, 59, 187);
+    }
+
+    .h1::after {
+        content: "Roxo";
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    .div {
+        background-color:rgb(250, 233, 0);
+    }
+
+    .h1::after {
+        content: "Amarelo";
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
