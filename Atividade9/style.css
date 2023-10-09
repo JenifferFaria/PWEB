@@ -1,0 +1,47 @@
+body {
+    color: rgb(105, 21, 21);
+    font-size: 20px;
+    background-color: rgb(198, 203, 204);
+}
+
+
+.conteudo #sexo {
+    width: 190px;
+}
+
+.conteudo #idade {
+    width: 140px;
+}
+
+.conteudo #opiniao {
+    width: 420px;
+    height: 30px;
+}
+
+.conteudo .botao {
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 8px 40px 10px;
+    color: rgb(105, 21, 21);
+    background-color: rgb(198, 203, 204);
+    border: solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conteudo {
+    width: 600px;
+    height: 500px;
+    padding: 15px 40px 40px 40px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.conteudo h2 {
+    text-align: center;
+}
+
+.conteudo h1 {
+    text-align: center;
+}
