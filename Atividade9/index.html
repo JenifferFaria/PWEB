@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conteudo">
+        <h1>Pesquisa sobre o filme</h1> 
+
+        <h2>Preencha o formulário</h2> <br>
+
+        <label for="">Idade: </label>
+        <input id="idade" type="text" placeholder="Informe a sua idade: ">
+        <br>
+        <br>
+
+        <label for="">Sexo: </label>
+        <input id="sexo" type="text" placeholder="Informe o seu sexo (F ou M): ">
+        <br>
+        <br>
+
+        <label for="">Opinião: </label>
+        <input id="opiniao" type="text"
+            placeholder="Informe sua opnião entre (Ótimo-4, Bom-3, Regular-2 e Péssimo-1): ">
+        <br>
+        <br>
+
+        <button onclick="receberRespostas()" class="botao">Gerar resultado</button>
+        <button onclick="limpar()" class="botao">Limpar</button>
+        <button onclick="respostas()" class="botao">Enviar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
