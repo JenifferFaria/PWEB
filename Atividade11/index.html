@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var aluno1 = new Object();
+        aluno1.ra = " 00001234";
+        aluno1.nome = " Simão Pedro";
+        alert("ra=" + aluno1.ra + " nome=" + aluno1.nome);
+
+        var aluno2 = {};
+        aluno2.ra = " 00009087";
+        aluno2.nome = " Pedro Faria";
+        alert("ra=" + aluno2.ra + " nome=" + aluno2.nome);
+
+        var aluno3 = {
+            ra: " 1234567",
+            nome: " Geize"
+        };
+        alert("ra=" + aluno3.ra + " nome=" + aluno3.nome);
+
+        function Aluno(ra, nome) {
+            this.ra = ra;
+            this.nome = nome;
+
+            this.MostraDados = function () {
+                return " ra=" + this.ra + " nome=" + this.nome;
+            }
+        }
+
+        var aluno4 = new Aluno("00001423", "Mario");
+        alert(aluno4.MostraDados());
+
+        var aluno5 = {}
+        var nome_propriedade = "ra";
+        aluno5[nome_propriedade] = "123";
+        aluno5['nome'] = "vitor";
+        alert(aluno5.ra + " " + aluno5.nome);
+
+    </script>
+</body>
+</html>
