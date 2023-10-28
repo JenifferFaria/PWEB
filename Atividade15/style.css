@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.form {
+    width: 50%;
+    height: 80%;
+    padding: 15px 40px 40px 40px;
+    margin: 0 auto;
+    background: rgba(40, 131, 81, 0.2);
+    border-radius: 5px;
+}
