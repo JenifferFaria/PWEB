@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "Pacote da Denilce",
+  "main": "callback1.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro",
+  "license": "ISC"
+}
